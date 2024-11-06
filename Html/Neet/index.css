@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  display: flex;
+  padding: 4rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+}
+
+.card_container {
+  display: flex;
+  width: 65rem;
+  height: 18.20644rem;
+  padding: 2rem 5.75rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 1rem;
+  border: 1px solid #0a9ced;
+  background:  #007bcb;
+}
+
+.card_main_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.second_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-shrink: 0;
+}
+
+.second_heading {
+  color: #f6f6f6;
+  font-family: "Inter";
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5625rem;
+  margin: 0;
+  padding: 0;
+}
+
+.second_fnt {
+  padding-top: 0.5rem;
+  color: #f6f6f6;
+  font-family: "Inter";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem;
+  margin: 0;
+}
+
+.btn_container {
+  display: flex;
+  height: 2.375rem;
+  padding: var(--Spacing-gap-0, 0rem) var(--Spacing-card-tB-lR, 1rem);
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: var(--Curve-curve-md, 0.5rem);
+  border: 1px solid var(--Black-300, #b0b0b0);
+  background: var(--Black-0, #fff);
+  color: var(--Black-900, #3d3d3d);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0rem;
+  letter-spacing: 0.0225rem;
+  cursor: pointer;
+}
+
+
+
+/* Media Querries */
+@media screen and (min-width: 1601px) {
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+  
+}
+
+@media screen and (max-width: 480px) {
+    
+.card_container {
+    display: flex;
+    width: 100%;
+    padding: 2rem 5.75rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 1rem;
+    border: 1px solid #0a9ced;
+    background:  #007bcb;
+  }
+  
+  .card_main_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2rem;
+  }
+
+    
+}
